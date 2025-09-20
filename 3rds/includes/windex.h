@@ -27,3 +27,8 @@ void index_entry(sqlite3 *db, const char *path, struct stat *st);
 void index_files(sqlite3 *db, const char *root);
 void search_files(sqlite3 *db, const char *pattern);
 
+
+/*
+ frankly, I am not sure if this header file is necessary for such a small project.
+    But I am keeping it for future expansion and it's 'good' practice.
+*/
