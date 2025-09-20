@@ -268,6 +268,6 @@ int main(int argc, char *argv[]) {
 
 /* End of windex.c
 *
-* I have high hopes for this project in the future. I might keep improving it.
+* I might keep improving it.
 *
 */
