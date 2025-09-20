@@ -79,4 +79,4 @@ Windex is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 Inspired by [locate](https://en.wikipedia.org/wiki/Locate_(Unix))
 
-> Frankly, this project have taught how painful MS dev environment is and i will get back to my old `I use Arch btw` way.
+> Frankly, this project reminded me of how painful MS dev environment is said to be and i will get back to my old `I use Arch btw` way.
