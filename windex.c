@@ -57,7 +57,7 @@ int _dbp(const char *home_dir, char *db_path) {
     // Check if directory exists, create it if necessary
     struct stat st = {0};
     if (stat(db_dir_path, &st) == -1) {
-        if (mkdir(db_dir_path) == -1) { // on unix-like systems, we would use 0700 for permissions
+        if (mkdir(db_dir_path) == -1) {
             perror("mkdir failed for directory");
             return -1;
         }
