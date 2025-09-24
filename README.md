@@ -21,10 +21,10 @@ Inspired by the open-source philosophy of sharing knowledge and tools, Windex is
    ```bash
    git clone https://github.com/somatech-20/windex.git
    ```
-  > I compiled this utility using MinGW GCC, specifically the Winlibs distribution. The MSVC CL compiler is currently not functional for this project.
+  > We compiled this utility using MinGW GCC, specifically the Winlibs distribution. The MSVC CL compiler is currently not functional for this project.
 
-2. So, ensure you have SQLite and MinGW64 (or equivalent) installed.
-3. Compile the program:
+2. So, ensure you have and MinGW64 (or equivalent) installed.
+3. Compile the program while linking with SQLlite like:
    ```bash
    gcc -o windex windex.c -L./3rds/libs/ -lsqlite3 -Wall -Werror
    ```
