@@ -23,7 +23,7 @@ Inspired by the open-source philosophy of sharing knowledge and tools, Windex is
    ```
   > We compiled this utility using MinGW GCC, specifically the Winlibs distribution. The MSVC CL compiler is currently not functional for this project.
 
-2. So, ensure you have and MinGW64 (or equivalent) installed.
+2. So, ensure you have MinGW64 (or equivalent) installed.
 3. Compile the program while linking with SQLlite like:
    ```bash
    gcc -o windex windex.c -L./3rds/libs/ -lsqlite3 -Wall -Werror
@@ -34,18 +34,18 @@ Inspired by the open-source philosophy of sharing knowledge and tools, Windex is
 Run Windex from the command line with one of the following commands:
 
 ```bash
-windex index           # Indexes (or Indices ☝️) files and directories from C:\ or /mnt/
+windex index           # This command Indexes (or Indices ☝️) files and directories from C:\ or /mnt/
 windex search <pattern> # Searches for files matching the pattern
 windex --help          # Displays help information
 ```
 
-The database is stored at `~/.windex/.winindex.db` or rather `%HOME%\.windex\.winindex.db` in your home directory, with optimized indexes for fast searching.
+The database is stored at `~/.windex/.winindex.db` or rather `%HOME%\.windex\.winindex.db` in your machine, with optimized indexes for fast searching.
 
 ### Examples
 
 - Index all files:
   ```bash
-  windex index
+  windex index  # Takes quite the time(recursive indexing)
   ```
 - Search for files containing "project":
   ```bash
@@ -59,6 +59,7 @@ Windex was created to address the limitations of traditional file search tools. 
 ## Future Plans
 
 This is just the beginning for Windex! Planned improvements include:
+- Enhance indexing time, rather optimze.
 - Enhanced help documentation and CLI options.
 - Support for additional platforms (Linux, macOS).
 - Advanced search filters (e.g., by size, type, or date).
