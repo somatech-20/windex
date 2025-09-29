@@ -1,2 +1,6 @@
-/.asm
+/*.asm
 *.exe
+/bin
+/logs
+/.vscode
+*.o
