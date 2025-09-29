@@ -1,4 +1,4 @@
-# Windex: A Fast File Indexing and Search Tool
+# Windex: A (Fast) File Indexing and Search Tool
 
 **Windex** is a lightweight utility for indexing and searching files on Windows drives (C:\ or /mnt/). We developed with efficiency in mind, Windex uses SQLite to store file metadata and offers a modern alternative to traditional tools like `locate`, with features like incremental indexing and case-insensitive search.
 
